@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 06 Jul 2017 07:16:05 at http://kpens.us/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Pns2u1%s%uN101%I0p7DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%l "en, *" http://kpens.us/ -O1 "C:\My Web Sites\skatrr prelpofc2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:16:57	Error: 	"Method Not Allowed" (405) at link kpens.us/xmlrpc.php (from kpens.us/)
+07:16:59	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from kpens.us/)
+07:16:59	Warning: 	Note: due to s.w.org remote robots.txt rules, links beginning with these path will be forbidden: /search, /support/search.php, /extend/plugins/search.php, /plugins/search.php, /extend/themes/search.php, /themes/search.php, /support/rss, /archive/ (see in the options to disable this)
+07:16:59	Warning: 	Found for s.w.org/
+07:16:59	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+07:16:59	Warning: 	Warning: store text/html without scan: C:/My Web Sites/skatrr prelpofc2/gmpg.org/.html
+07:16:59	Warning: 	Warning: store text/html without scan: C:/My Web Sites/skatrr prelpofc2/gmpg.org/intro.html
+07:16:59	Warning: 	Warning: store text/html without scan: C:/My Web Sites/skatrr prelpofc2/gmpg.org/faq.html
+07:17:03	Warning: 	HTML file (53062 bytes) retransferred due to lack of cache: kpens.us/wp-json/
+07:17:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): kpens.us/xmlrpc.php?rsd
+07:17:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): kpens.us/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkpens.us%2F
+07:17:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): kpens.us/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkpens.us%2F&format=xml
+07:17:47	Error: 	"Not Found" (404) at link kpens.us/wp-content/themes/shapely/assets/css/style.css?ver=4.8 (from kpens.us/)
+07:18:03	Warning: 	Warning: store text/css without scan: C:/My Web Sites/skatrr prelpofc2/gmpg.org/images/default.css
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 58 seconds : 66 links scanned, 62 files written (3473248 bytes overall) [2911385 bytes received at 24672 bytes/sec], 941532 bytes transferred using HTTP compression in 24 files, ratio 32%, 3.2 requests per connection
+(3 errors, 11 warnings, 0 messages)
